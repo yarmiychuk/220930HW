@@ -14,8 +14,8 @@ def createList():
 def getDifference(list):
     newList = []
     for i in range(len(list)):
-        if list[i]%1 != 0:
-            newList.append(list[i]%1)
+        if list[i] % 1 != 0:
+            newList.append(list[i] % 1)
     return max(newList) - min(newList)
 
 list = createList()
